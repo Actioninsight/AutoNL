@@ -17,6 +17,8 @@ interpreter.auto_run = True
 
 
 def process_spreadsheet(file_path):
+    prompt = f"Follow these instructions to edit the input file. Create the output file to store your response. If there is no input or output, just follow the instructions. Operate in this filepath: {file_path} Instructions: "
+
     # Load the spreadsheet
     df = pd.read_excel(file_path)
 
@@ -33,7 +35,7 @@ def process_spreadsheet(file_path):
                 if pd.notna(row[col_name])
             ]
         )
-        response = interpreter.chat(row_data_str)
+        response = interpreter.chat(prompt + row_data_str)
         print(response)
 
 
