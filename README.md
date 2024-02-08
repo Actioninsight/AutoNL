@@ -1,4 +1,4 @@
-# NLautomator
+# AutoNL
 
 ## Setup
 
