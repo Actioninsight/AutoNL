@@ -16,11 +16,13 @@ interpreter.llm.api_version = os.getenv("LLM_API_VERSION")
 interpreter.auto_run = True
 
 
-def process_spreadsheet(file_path):
-    prompt = f"Follow these instructions to edit the input file. Create the output file to store your response. If there is no input or output, just follow the instructions. Operate in this filepath: {file_path} Instructions: "
+def process_spreadsheet(spreadsheet_full_path):
+    directory_path = os.path.dirname(spreadsheet_full_path)
+
+    prompt = f"Follow these instructions to edit the input file. Create the output file to store your response. If there is no input or output, just follow the instructions. Operate in this filepath: {directory_path} Instructions: "
 
     # Load the spreadsheet
-    df = pd.read_excel(file_path)
+    df = pd.read_excel(spreadsheet_full_path)
 
     # Capture column names once before the loop
     column_names = df.columns
@@ -44,5 +46,5 @@ if __name__ == "__main__":
         print("Usage: python main.py <path_to_spreadsheet>")
         sys.exit(1)
 
-    file_path = sys.argv[1]  # Get the file path from the command line
-    process_spreadsheet(file_path)
+    spreadsheet_full_path = sys.argv[1]  # Get the file path from the command line
+    process_spreadsheet(spreadsheet_full_path)

@@ -1,3 +1,4 @@
 pandas
 python-dotenv
 open-interpreter
+odfpy
