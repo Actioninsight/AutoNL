@@ -33,7 +33,7 @@ def process_spreadsheet(spreadsheet_full_path):
     for index, row in df.iterrows():
         current_row = index + 1
         try:
-            print(f"Executing instruction {current_row} of {len(df)}")
+            print(f"***** Executing instruction {current_row} of {len(df)} *****")
             # Assemble a single string from the row data
             row_data_str = ", ".join(
                 [
@@ -46,17 +46,17 @@ def process_spreadsheet(spreadsheet_full_path):
             print(response)
 
         except KeyboardInterrupt:
-            print("KeyboardInterrupt caught, breaking out of the loop.")
+            print("***** KeyboardInterrupt caught, breaking out of the loop. *****")
             break
         except Exception as e:
-            print(f"Error on row {current_row}: {e}")
+            print(f"***** Error on row {current_row}: {e} *****")
 
     # Validate the spreadsheet execution
     validation_prompt = f"You have just finished iterating through a list of instructions in a spreadsheet. You must validate that the outputs in the spreadsheet were successfully created in {directory_path}. Here are the instructions:"
 
     spreadsheet_data = ", ".join([str(row) for index, row in df.iterrows()])
 
-    print("Validating output...")
+    print("***** Validating output... *****")
     validation_response = interpreter.chat(validation_prompt + " " + spreadsheet_data)
     print(validation_response)
 
