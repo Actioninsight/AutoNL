@@ -18,5 +18,3 @@ Use natural language instructions to automate tasks.
 The script will create and read documents in the directory of the file you pass in.
 
 You can drag and drop the file into Terminal to paste the path.
-
-You can create an alias such as `alias autonl="python main.py"` and then run `autonl <path to spreadsheet/csv>`
