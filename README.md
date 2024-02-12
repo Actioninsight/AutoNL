@@ -1,6 +1,15 @@
 # AutoNL
 
-Use natural language instructions to automate tasks. 
+AutoNL helps you automate routine, well-understood tasks entirely in natural language using simple spreadsheets. 
+
+You might find AutoNL useful if you:
+   * Have to frequently repeat a series of manual steps in programs like Excel; 
+   * Want to automate the preprocessing and cleaning of data without specialized software;
+   * Already have all your steps and processes written down.
+
+## How it works
+
+AutoNL is a simple, general framework for leveraging Open-Interpreter's powerful ability to flexibly solve small tasks. Where Open-Interpreter sometimes falters is on longer, context-heavy multi-step tasks. AutoNL attempts to solve this with a carefully constructed sheet which outlines all of the processes in natural language, and manages state by additively creating new intermediate sheets so that progress is not lost upon error. With strong task articulation and steps properly broken down, processes can be solved at a high rate of reliability. 
 
 ## Warning
 
