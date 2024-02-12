@@ -40,4 +40,4 @@ Use autonl-example.xlsx to run a 7-step example process.
 
 ## Known Errors
 
-Open-Interpreter will sometimes prematurely stop the generation without completing a step's task. Watch for this. 
+Open-Interpreter will sometimes prematurely stop the generation without completing a step's task. Re-run the process to try again.
