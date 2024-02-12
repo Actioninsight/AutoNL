@@ -1,0 +1,51 @@
+LogID,Date,Time,AccountNumber,Method,StaffMember,Summary,Attachments
+d5c668f8-715f-496c-b437-42457d6ed3e3,2023-07-28,12:26:48,CA354774800,Phone,Jeffrey Schultz,Routine account management,No
+4a8029e5-2d5b-4750-8611-4e64920e516b,2023-05-01,18:06:44,CA451351986,Email,Deborah Davis,Routine account management,No
+51fb110b-40d2-4941-a608-e1ed9b69e89b,2023-04-24,04:42:51,CA354774800,Phone,Marcus Hernandez,Routine account management,No
+abf16ac7-7029-4e2d-b1fc-247f0ca429ed,2023-03-22,22:59:16,CA354774800,In-person,Rebecca Keller,Routine account management,No
+dc21e493-ac20-4cb2-b3c6-09fefc9234df,2023-12-04,21:34:09,CA652590094,In-person,Caitlin Garcia,Routine account management,Yes
+bbecbcf2-ef98-48f1-b7a0-6f56597c7147,2023-06-06,08:10:16,CA277847109,Email,Jeffrey Hensley,Routine account management,No
+e2fc8596-a406-49ad-932a-7a3902b97264,2023-08-04,17:46:11,CA466926887,Email,Darren Mckinney,Routine account management,Yes
+ffa905f4-864c-4494-a0fd-ddf41ddf5cc0,2023-12-14,19:41:00,CA277847109,Phone,Cole Williams,Routine account management,Yes
+6f57811c-1946-4d37-854c-d842f0357ed2,2023-03-09,18:19:54,CA804502942,Phone,Brad Pope,Routine account management,No
+0093cc68-b57f-491d-8f5a-d21ebc91d019,2023-09-05,23:09:26,CA466926887,Email,Michael Hernandez,Routine account management,No
+daa65043-0b80-4d88-8c18-7843fc773d99,2023-06-17,13:41:37,CA652590094,Email,David Scott,Routine account management,Yes
+2c8e2dfb-c855-46d1-bc7f-263643381e34,2023-05-17,07:28:21,CA984237219,In-person,Derek Collins,Routine account management,No
+b399c6a3-69f4-4c84-8019-60e5d2c8bc15,2023-11-07,03:16:30,CA354774800,Phone,Mrs. Rachel Graham,Routine account management,Yes
+1d7bc873-e016-43de-a0d5-5028c0b157bb,2023-02-18,18:48:14,CA125288047,In-person,Kayla Glass,Routine account management,No
+6ac0b110-85b1-49f9-9ca9-eb4ae094af82,2023-10-16,18:30:03,CA984237219,In-person,Mark Farrell,Routine account management,Yes
+b9153b90-6bdb-481b-a6b0-0457f45a2c06,2023-11-05,02:47:36,CA984237219,In-person,Robert Pham,Routine account management,Yes
+2f012e19-d132-4eed-a57c-69384bde6a6b,2023-04-12,09:31:39,CA804502942,In-person,Paul Dunn,Routine account management,Yes
+44e105bf-335e-4c9a-ba03-ae2add6f91f9,2023-03-15,05:59:37,CA354774800,Email,Sarah Osborne,Routine account management,Yes
+7b3b224f-4253-4ad9-8469-1ebcba7226dc,2023-03-01,14:02:42,CA466926887,Phone,Austin Medina,Routine account management,No
+4930313d-06bd-4573-84b4-cfb05a88854c,2023-06-14,12:40:01,CA804502942,Phone,Joseph Powell,Routine account management,No
+ed633113-6494-4d85-b737-b10f46bc9e6b,2023-11-07,11:50:58,CA277847109,In-person,Antonio Wang,Routine account management,Yes
+633eb23a-96bd-4c1e-9a65-07af1e0d4613,2023-08-09,08:27:53,CA466926887,In-person,Anthony Grimes,Routine account management,Yes
+3c52d768-202d-4daa-b4a3-25607ef12c38,2024-01-10,06:08:42,CA576991223,In-person,Michael Nixon,Routine account management,Yes
+420cdc94-851e-4f11-a4f2-1e59b362a073,2024-01-12,22:20:22,CA984237219,Email,Mark Carr,Routine account management,No
+b911a483-4f4f-4173-92af-fccd20f23c8d,2024-01-01,22:07:26,CA354774800,Phone,Eric Brown,Routine account management,No
+e0e9ff29-7b7c-4732-af32-13c983a34c28,2023-09-04,07:53:32,CA451351986,Email,Susan Harrison,Inquiry about transfer status,No
+5088a430-64a0-45a0-8d4d-17b8c3cdf839,2023-03-25,08:47:13,CA354774800,Phone,Joseph Garza,Inquiry about transfer status,No
+c01ba30e-bd79-43dc-b3f1-eba3e053a024,2023-07-22,06:30:59,CA804502942,In-person,Carl Gonzalez,Inquiry about transfer status,Yes
+fa75e8e0-f4a6-4fac-8916-87699f750539,2023-10-12,01:35:42,CA804502942,In-person,Brad Krause,Inquiry about transfer status,Yes
+e5781c27-ccfc-403a-a308-6ff645088dbf,2023-06-26,01:19:50,CA451351986,Phone,Michael Ramsey,Inquiry about transfer status,No
+106d6503-4ee5-4637-aec5-13941e6ed348,2024-01-12,22:44:51,CA277847109,In-person,Kyle Sherman,Routine account management,No
+7301af74-a467-44e0-9792-08b6152bb1d9,2023-09-18,15:29:29,CA354774800,In-person,Gregory Flores,Routine account management,No
+e4915e3a-39e9-4da7-8eaa-9cc1f981da7a,2024-02-10,13:48:07,CA804502942,Email,Elizabeth Simpson,Routine account management,No
+e8fc4429-710b-40fe-9b3b-69120a43bfe1,2023-07-23,07:40:45,CA804502942,Email,Jeffery Rivera,Routine account management,Yes
+8bd2bb92-16d4-448a-8a7f-e21ac2774be8,2023-05-05,23:41:00,CA125288047,In-person,Jordan Stone,Routine account management,No
+81c8573b-118f-47fd-b3bb-36cfc337fc0f,2023-08-02,18:51:32,CA466926887,Phone,Heather Harper,Routine account management,Yes
+c8018c3f-4d53-44eb-b1d1-c9a5a27a63db,2024-02-06,11:06:19,CA354774800,In-person,Bill Taylor,Routine account management,No
+6effb925-21e9-43bd-8bb4-41ab0b4afdd2,2023-05-22,13:39:51,CA354774800,Email,Theodore Stokes,Routine account management,No
+11994337-c265-4aeb-99f6-79cb76e5ca44,2023-08-16,15:58:37,CA466926887,In-person,Seth Hall,Routine account management,No
+2a4e7a65-bd2c-4196-a81b-09371b5e521c,2023-06-23,04:10:09,CA466926887,Phone,Tracy Bryant,Routine account management,No
+b51182f7-aa23-4229-bca2-f41cdf752102,2023-04-04,14:30:42,CA354774800,In-person,Rebecca Sims,Routine account management,Yes
+d1c9ebd2-ce06-41e3-a2a6-36bef6dfd7a8,2023-02-12,19:28:50,CA576991223,In-person,Angela Patel,Routine account management,No
+735b930e-b7c8-413c-84ba-f3879d363782,2023-08-05,14:54:33,CA277847109,Phone,Autumn Thomas,Routine account management,No
+b675a2f5-0758-4bc8-b18e-fdaffc03e716,2023-06-12,03:14:15,CA451351986,Email,Darren Bauer,Routine account management,No
+15dd63e1-c712-48d9-884e-1a001a99405c,2023-06-28,19:33:01,CA984237219,Phone,Susan Shea,Routine account management,Yes
+3ec5ac39-3939-4eaa-90a7-2b19bb631d42,2023-12-12,23:39:29,CA576991223,Phone,Jacqueline Davis,Routine account management,Yes
+f74d3c4f-997a-4995-bc2a-94c68e73dd3c,2023-06-15,19:11:15,CA354774800,Email,Alexander Ramos,Routine account management,Yes
+769605a9-de78-4e3d-9b52-fdf4f11082f1,2023-07-22,19:17:29,CA125288047,In-person,Mark Gilbert,Routine account management,No
+189a5dff-d817-4e81-aea5-afff24a6786c,2023-08-19,07:52:57,CA466926887,Email,Patrick Francis,Routine account management,Yes
+46688f1b-fb8c-453c-9d21-b22857890fcb,2023-02-20,04:04:18,CA576991223,In-person,Jason Stein,Routine account management,No

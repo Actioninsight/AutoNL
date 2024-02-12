@@ -1,0 +1,11 @@
+AlertID,Date,AccountNumber,Source,Summary,ActionTaken
+f2dca024-3223-45e4-93b5-3df780b84e3b,2023-10-23,CA652590094,FINTRAC,Routine Monitoring Alert,No Action
+9ca42dd3-342d-4a4f-a165-cd05a8ae841e,2023-04-20,CA125288047,FINTRAC,Routine Monitoring Alert,No Action
+e81d177c-9740-49f9-a5f4-285969525b8f,2023-07-15,CA451351986,FINTRAC,Routine Monitoring Alert,No Action
+8234bb98-a410-4f74-bf39-e3765f8021f4,2023-11-03,CA231718962,FINTRAC,Routine Monitoring Alert,No Action
+ce5c1149-9248-4b6f-a721-8861958fa8bf,2023-08-06,CA984237219,FINTRAC,Routine Monitoring Alert,No Action
+39e27470-0244-45ea-81e8-e7e79c477c9c,2023-09-02,CA466926887,FINTRAC,Suspicious Transaction Alert,Further Investigation Required
+0a12ca80-4b31-4a87-baa7-746749b48bce,2024-01-23,CA576991223,FINTRAC,Routine Monitoring Alert,No Action
+ae4dd94a-4495-4897-81fe-6e6b3e9e17cb,2023-12-26,CA804502942,FINTRAC,Routine Monitoring Alert,No Action
+e670abb7-8ca7-4d8d-b53b-2bc12badaf72,2023-11-08,CA354774800,FINTRAC,Routine Monitoring Alert,No Action
+57577e9d-f566-478b-844f-43b4514d517e,2023-07-28,CA277847109,FINTRAC,Routine Monitoring Alert,No Action
