@@ -24,11 +24,13 @@ AutoNL is experimental and prone to failures. Use at your own risk.
 
 ## Use
 
-- run `python main.py <path to spreadsheet/csv>`
+- run `python main.py <full path to spreadsheet/csv>`
 
 ## Tips
 
 The script will create and read documents in the directory of the file you pass in.
+
+Be sure to use the full file path.
 
 You can drag and drop the file into Terminal to paste the path.
 
