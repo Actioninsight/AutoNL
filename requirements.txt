@@ -3,3 +3,4 @@ python-dotenv
 open-interpreter
 odfpy
 Pyarrow
+openpyxl
