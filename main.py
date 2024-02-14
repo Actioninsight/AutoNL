@@ -15,7 +15,7 @@ interpreter.llm.api_key = os.getenv("LLM_API_KEY")
 interpreter.llm.api_base = os.getenv("LLM_API_BASE")
 interpreter.llm.api_version = os.getenv("LLM_API_VERSION")
 interpreter.auto_run = True
-interpreter.llm.context_window = 3000
+interpreter.llm.context_window = os.getenv("CONTEXT_WINDOW")
 interpreter.custom_instructions = "If you need to install a python library, you must use `python -m pip install <library>` because you don't know what environment you're running in."
 
 
