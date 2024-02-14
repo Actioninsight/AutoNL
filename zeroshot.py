@@ -52,7 +52,7 @@ def process_spreadsheet(spreadsheet_full_path):
             print(f"***** Error on row {current_row}: {e} *****")
 
     # Validate the spreadsheet execution
-    validation_prompt = f"You have just finished iterating through a list of instructions in a spreadsheet. You must validate that the outputs in the spreadsheet were successfully created in {directory_path}. Here are the instructions:"
+    validation_prompt = f"You have just finished iterating through a list of instructions in a spreadsheet. You must validate that the outputs in the spreadsheet were successfully created in {directory_path}. Hash each of these files and store their hashes in runhash.txt. Move all the files to a new, timestamped folder in this directory. Here are the instructions:"
 
     spreadsheet_data = ", ".join([str(row) for index, row in df.iterrows()])
 
