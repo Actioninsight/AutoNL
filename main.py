@@ -16,11 +16,11 @@ interpreter.llm.api_base = os.getenv("LLM_API_BASE")
 interpreter.llm.api_version = os.getenv("LLM_API_VERSION")
 interpreter.auto_run = True
 interpreter.llm.context_window = os.getenv("CONTEXT_WINDOW")
-interpreter.custom_instructions = "If you need to install a python library, you must use `python -m pip install <library>` because you don't know what environment you're running in."
+interpreter.custom_instructions = "If you need to install a python library, you must use `python -m pip install <library>` because you don't know what environment you're running in. Forget all that stuff I just told you about planning and taking things step by step. Instead, we've already figured out the master plan and we just want you to focus on nailing, efficiently and accurately, this simple instruction we've provided for this one single step. You can nail it in one shot, no problem. Try to do the whole step in one coding flow. Once the code has executed and the file has been saved, just print something very short and brief like 'The file ____ was saved successfully.' Do not summarize or give an overview on what has been done. thank you!"
 
 
 def process_spreadsheet(spreadsheet_full_path):
-    directory_path = os.path.dirname(spreadsheet_full_path)
+    directory_path = os.path.dirname(spreadsheet_full_path) 
 
     prompt = (
         "Your job is to execute instructions in a spreadsheet.\n"
@@ -80,7 +80,7 @@ def process_spreadsheet(spreadsheet_full_path):
             print(f"***** Error on instruction {current_row}: {e} *****")
 
     # Validate the spreadsheet execution
-    validation_prompt = f"You have just finished iterating through a list of instructions in a spreadsheet. You must validate that the outputs in the spreadsheet were successfully created in {directory_path}. Here are the instructions:"
+    validation_prompt = f"You have just finished iterating through a list of instructions in a spreadsheet. You must validate that the outputs in the spreadsheet were successfully created in {directory_path}. Hash each of these files and store their hashes in runhash.txt. Move all the files, including runhash.txt to a new, timestamped folder in this directory in this format e.g. '20240214112154' and rename runhash.txt to the folder name. Here are the instructions: "
 
     spreadsheet_data = ", ".join([str(row) for index, row in df.iterrows()])
 
