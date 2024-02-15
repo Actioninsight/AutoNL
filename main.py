@@ -81,7 +81,7 @@ def process_spreadsheet(spreadsheet_full_path):
     validation_prompt = (
         "You have just finished iterating through a list of instructions in a spreadsheet. "
         f"You must validate that the outputs in the spreadsheet were successfully created in {directory_path}. "
-        "Hash each of these files and store their hashes in runhash.txt. Move all the files, including runhash.txt to a new, timestamped folder in this directory in this format e.g. '20240214112154'."
+        "Hash each of these files and store their hashes in runhash.txt. Move all the files, including runhash.txt to a new, timestamped folder in this directory in this format e.g. '20240214112154' and rename runhash.txt to the same name as the folder."
         "Here are the instructions:"
     )
 
