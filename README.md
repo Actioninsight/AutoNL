@@ -14,6 +14,9 @@ Apache 2
 
 AutoNL is a simple, general framework for leveraging Open-Interpreter's powerful ability to flexibly solve small tasks. Where Open-Interpreter sometimes falters is on longer, context-heavy multi-step tasks. AutoNL attempts to solve this with a carefully constructed sheet which outlines all of the processes in natural language, and manages state by additively creating new intermediate sheets so that progress is not lost upon error. With strong task articulation and steps properly broken down, processes can be solved at a high rate of reliability. 
 
+## Credits
+https://github.com/KillianLucas/open-interpreter - This project is made possible by the Open Interpreter project, which allows GPT4 to take action on your computer. 
+
 ## Warning
 
 AutoNL is experimental and prone to failures. Use at your own risk. 
