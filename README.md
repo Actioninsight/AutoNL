@@ -7,6 +7,9 @@ You might find AutoNL useful if you:
    * Want to automate the preprocessing and cleaning of data without specialized software;
    * Already have all your steps and processes written down.
 
+## License 
+Apache 2
+
 ## How it works
 
 AutoNL is a simple, general framework for leveraging Open-Interpreter's powerful ability to flexibly solve small tasks. Where Open-Interpreter sometimes falters is on longer, context-heavy multi-step tasks. AutoNL attempts to solve this with a carefully constructed sheet which outlines all of the processes in natural language, and manages state by additively creating new intermediate sheets so that progress is not lost upon error. With strong task articulation and steps properly broken down, processes can be solved at a high rate of reliability. 
