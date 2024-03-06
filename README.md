@@ -1,7 +1,7 @@
 ## WHAT DOES AUTONL DO?:
 
 AutoNL uses Open-Interpreter to automate multi-step tasks with the help of a simple spreadsheet. The basic insight here is OI, AutoGPT, etc all begin to break down when their planning enters a loop. But we often actually know the plan we want it to follow anyway, we just to leverage it to execute. So this puts all the responsibility for execution on AI, but all the responsibility for planning on the human.
-![AutoNL Example](autonlexample.png)
+
 ## Setup
 
 - Install dependencies `pip install -r requirements.txt`
@@ -13,9 +13,7 @@ AutoNL uses Open-Interpreter to automate multi-step tasks with the help of a sim
 
 - run `python main.py <full path to spreadsheet/csv>`
 
-
-
-## HOW DOES IT WORK?
+![AutoNL Example](autonlexample.png)
 
 AutoNL is a script and a spreadsheet. The spreadsheet has the following columns "STEP", "INPUT FILE(s)", "INSTRUCTION", and "OUTPUT FILE(s)". The script just does the job of running through the process one time, validating each step, and finally hashing the files and moving them to one directory.
 
