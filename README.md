@@ -1,25 +1,6 @@
-# AutoNL
+## WHAT DOES AUTONL DO?:
 
-AutoNL helps you automate routine, well-understood tasks entirely in natural language using simple spreadsheets. 
-
-You might find AutoNL useful if you:
-   * Have to frequently repeat a series of manual steps in programs like Excel; 
-   * Want to automate the preprocessing and cleaning of data without specialized software;
-   * Already have all your steps and processes written down.
-
-## License 
-Apache 2
-
-## How it works
-
-AutoNL is a simple, general framework for leveraging Open-Interpreter's powerful ability to flexibly solve small tasks. Where Open-Interpreter sometimes falters is on longer, context-heavy multi-step tasks. AutoNL attempts to solve this with a carefully constructed sheet which outlines all of the processes in natural language, and manages state by additively creating new intermediate sheets so that progress is not lost upon error. With strong task articulation and steps properly broken down, processes can be solved at a high rate of reliability. 
-
-## Credits
-https://github.com/KillianLucas/open-interpreter - This project is made possible by the Open Interpreter project, which allows GPT4 to take action on your computer. 
-
-## Warning
-
-AutoNL is experimental and prone to failures. Use at your own risk. 
+AutoNL uses Open-Interpreter to automate multi-step tasks with the help of a simple spreadsheet. The basic insight here is OI, AutoGPT, etc all begin to break down when their planning enters a loop. But we often actually know the plan we want it to follow anyway, we just to leverage it to execute. So this puts all the responsibility for execution on AI, but all the responsibility for planning on the human.
 
 ## Setup
 
@@ -31,6 +12,39 @@ AutoNL is experimental and prone to failures. Use at your own risk.
 ## Use
 
 - run `python main.py <full path to spreadsheet/csv>`
+
+
+
+## HOW DOES IT WORK?
+
+AutoNL is a script and a spreadsheet. The spreadsheet has the following columns "STEP", "INPUT FILE(s)", "INSTRUCTION", and "OUTPUT FILE(s)". The script just does the job of running through the process one time, validating each step, and finally hashing the files and moving them to one directory.
+
+## WHERE IS THE DEMO?
+
+The first demo is right here: https://youtu.be/aCa8ntYIkpM, but I'm planning to record a few more - right now I've got the tool hooked up to e-mail, authenticated with Microsoft Graph, routing tasks between sheets, etc - lots to come.
+
+## DOES THIS WORK 100% ALL THE TIME?
+
+Absolutely not. This is experimental and is prone to various failures, but can also become quite reliable. The example sheet 'datapre.xlsx' typically matches hashes on outputs about 80% of the time currently. I expect future models will only continue to improve the quality and reliability, while local models like OpenCodeInterpreter will make local offline use achievable.
+
+## WHY DID YOU DO THIS?
+
+Thank you for asking. I think AI tools are constantly trying to automate the user out of the loop, but my own experience is that I want to be fully in the loop at all times. I want to the loopmaster, and I want tools that put me at the centre and give me visibility and control over everything. AutoNL turns the entire pipeline into natural language. Even the script itself is built primarily in Natural Language, controlled by Open-Interpreter.
+
+## WHATS THE ROADMAP?:
+
+Short-term roadmap would be to make it easier to build new sheets. I want a command line flag that we can run to start a sheet on a given step, I want to be able to control the model and system prompt from inside the spreadsheet, and I'd also like to spend some time on creating an AutoNL sheet that helps build AutoNL sheets - that's the dream.
+
+## Credits
+https://github.com/KillianLucas/open-interpreter - This project is made possible by the Open Interpreter project, which allows GPT4 to take action on your computer. 
+
+## Warning
+
+AutoNL is experimental and prone to failures. Use at your own risk. 
+
+## License 
+
+Apache 2
 
 ## Tips
 
