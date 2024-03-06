@@ -13,6 +13,8 @@ AutoNL uses Open-Interpreter to automate multi-step tasks with the help of a sim
 
 - run `python main.py <full path to spreadsheet/csv>`
 
+## HOW AUTONL WORKS:
+
 ![AutoNL Example](autonlexample.png)
 
 AutoNL is a script and a spreadsheet. The spreadsheet has the following columns "STEP", "INPUT FILE(s)", "INSTRUCTION", and "OUTPUT FILE(s)". The script just does the job of running through the process one time, validating each step, and finally hashing the files and moving them to one directory.
